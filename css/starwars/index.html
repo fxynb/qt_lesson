@@ -15,7 +15,7 @@
         }
         
         body {
-            background-color: #000000
+            background-color: #000;
         }
         
         img {
@@ -23,19 +23,19 @@
         }
         
         .starwars-demo {
-            height: 17em;
+            height: 18em;
             width: 34em;
             position: absolute;
             top: 53%;
             left: 50%;
-            /* background-color: red; */
+            /* background-color: #f00; */
             transform: translate(-50%, -50%);
             perspective: 800px;
             transform-style: preserve-3d;
         }
         
         .star,
-        .war,
+        .wars,
         .byline {
             position: absolute;
         }
@@ -71,7 +71,7 @@
         }
         
         .byline {
-            color: #fff;
+            color: #ffffff;
             font-family: Lato;
             font-size: 2.25em;
             left: -2em;
@@ -91,7 +91,7 @@
             0%,
             100% {
                 opacity: 0;
-                transform: rotateY(90edg);
+                transform: rotateY(90deg);
             }
             30% {
                 opacity: 1;
@@ -116,17 +116,17 @@
             }
         }
     </style>
-
 </head>
 
 <body>
-    <!-- <div class="starwars-demo">
+    <!-- <div  class="starwars-demo">
+        <img src="./images/star.svg" class="star"/>
+        <img src="./images/wars.svg" class="wars"/>
+    </div> -->
+    <!-- <div class="starwas-demo">
         <img src="./images/star.svg" class="star">
         <img src="./images/wars.svg" class="wars">
-
     </div> -->
-    <!-- .starwars-demo>img.star[src="/images/.svg"]*2 -->
-    .starwars-demo>img.star[src="./images/.svg"]*2+h2.byline>span*15
     <div class="starwars-demo">
         <img src="./images/star.svg" alt="" class="star">
         <img src="./images/wars.svg" alt="" class="wars">
@@ -143,9 +143,11 @@
             <span>w</span>
             <span>a</span>
             <span>k</span>
-            <span>n</span>
             <span>e</span>
+            <span>n</span>
             <span>s</span>
         </h2>
     </div>
 </body>
+
+</html>
