@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            text-align: center;
+            padding: 25px 0;
+        }
+        .inner{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        kkkkk
+        <p class="inner">dadadadsa</p>
+    </div>
+    <!-- 登录，评论  loginForm-->
+    <a href="http://www.baidu.com" id="login_a" class="123">login</a>
+    <!-- <button id="loginBtn">登录</button> -->
+    <script>
+        const box = document.querySelector('.box');
+        const inner = document.querySelector('.inner');
+        document.getElementById('login_a').addEventListener('click',function(event){
+            event.preventDefault();//preventDefault()
+            alert('dadada');
+        });
+
+        // document.querySelector('.123').addEventListener('click',(event) => {
+        //     event.preventDefault();
+        //     alert('dadad');
+        // });
+        document.querySelector('.box').addEventListener('click',() =>{
+            alert('i am a box');
+        },true)
+        document.querySelector('.inner').addEventListener('click',(event) =>{
+            // event.stopPropagation();//阻止冒泡行为
+            alert('i am a inner');
+        },true)
+    </script>
+</body>
+</html>
