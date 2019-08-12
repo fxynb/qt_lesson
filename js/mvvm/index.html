@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <input type="text"  id="txt" >
+        <p id="show-txt"></p>
+    </div>
+    <script>
+        //这个页面(静态)德数据(data)核心
+        // 数据和界面德双向绑定
+        // 函数封装德思想 大于10行请分函数
+        // 每个函数只做一件事 复用
+        const obj = {
+            txt:'纳德拉'
+        }
+        Object.defineProperty(obj,'txt',{
+            get:function(){
+                console.log('获得属性');
+                return obj;
+            },
+            set:function(newValue){
+                console.log('设置属性');
+                document.getElementById('show-txt').innerHTML = newValue;
+                document.getElementById('txt').value = newValue;
+                return newValue;
+            }
+        })
+        setTimeout(()=>{
+            obj.txt = '123'
+        },1000)
+        document.getElementById('txt').addEventListener('keyup',function(e){
+            obj.txt = e.target.value;
+        })
+        //值德显示和双向绑定
+        // const txtEle = document.getElementById('show-txt');
+        // const oInput = document.getElementById('txt')
+        // const obj = {
+        //     txt:'纳德拉'
+        // }
+        // function init(){
+        //    render();
+        //     setTimeout(function(){
+        //         obj.txt = '甘地';
+        //     },1000)
+        //     render(obj.txt);
+        // }
+        // function render(){
+        //     oInput.value = txt;
+        //     txtEle.innerText = txt;
+        // }
+        // init();
+        // oInput.addEventListener('input',()=>{
+        //     obj.txt = this.value;
+        // })
+    </script>
+</body>
+</html>
