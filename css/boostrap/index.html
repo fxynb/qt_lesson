@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <form action="/login" method="post" name="loginForm">
+        <div class="form-group"><label for="emailInput">Email Address</label><input type="email" class="form-control" id="emailInput" name="emailInput" placeholder="请输入邮箱" required reg="" 
+            pattern="^[0-9a-zA-Z]+@[0-9a-zA-Z]+\.[0-9a-zA-Z]+$"></div>
+        <div class="form-group"><label for="passwordInput">Password</label><input type="password" class="form-control" id="passwordInput" name="passwordInput" placeholder="请输入密码" required reg = "" minlength="6" maxlength="12"></div>
+        <div class="form-group"><label for="fileInput">File Input</label><input type="file" class="form-control" id="passwordInput" name="passwordInput" placeholder="请上传文件">
+            <p class="help-block"></p>
+        </div>
+        <div class="checkbox"><label for=""><input type="text" class="checkbox">Check me out </label></div>
+        <button class="btn  " >Submit</button>
+    </form>
+</body>
