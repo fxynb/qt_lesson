@@ -1,34 +1,11 @@
 >  本项目是基于vue2最新实战项目，vue2 +vue-router2 + es6 +webpack 高仿饿了么app,是适合新手进阶的绝佳教程。
 
-### 项目技术架构
-***
-*  vue-cli
-*  vue
-*  vue-resource
-*  vue-router
-*  vue-infinite-scroll
-*  stylus
-*  webpack
-
-###上图
-***
-* 加入购物车动画
-
-![11.gif](http://upload-images.jianshu.io/upload_images/4249223-8d462b93150db24e.gif?imageMogr2/auto-orient/strip)
-
-* 弹出购物车 商品详情页
-
-![2222.gif](http://upload-images.jianshu.io/upload_images/4249223-71b66b4249d868bd.gif?imageMogr2/auto-orient/strip)
-
-* 分类切换 图片左右滑动
-
-![3333.gif](http://upload-images.jianshu.io/upload_images/4249223-f0921b44740f6d4f.gif?imageMogr2/auto-orient/strip)
 
 ###安装
 ***
 项目地址：（`git clone`）
 ```shell
-git clone https://github.com/liangxiaojuan/eleme.git
+git clone https://github.com/qt_lesson/vue copy/eleme.git
 ```
 通过`npm`安装本地服务第三方依赖模块(需要已安装[Node.js](https://nodejs.org/))
 
