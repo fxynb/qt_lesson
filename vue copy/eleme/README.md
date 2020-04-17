@@ -56,7 +56,6 @@ npm install friendly-errors-webpack-plugin --save-dev
 * 商品滚动 ，商品滚轮滚动
 * 商品联动
 * 加入购物车，移除购物车
-* 显示评论 评论筛选
 * 图片左右滑动
 * 商品详情  父子组件的通信
 * 等等
