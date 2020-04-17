@@ -61,10 +61,4 @@ npm install friendly-errors-webpack-plugin --save-dev
 * 商品详情  父子组件的通信
 * 等等
 
-### 正在实现的功能
-***
-* vuex
-* 无限滚动
-*  上拉刷新
-* 更多更精彩的内容
 
